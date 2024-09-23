@@ -39,6 +39,7 @@ class AuthWrapper extends StatelessWidget {
   Widget build(BuildContext context) {
     const bool isAuthenticated = false; // Change this based on actual authentication logic
 
+    // ignore: dead_code
     if (isAuthenticated) {
       return const DashboardPage();
     } else {

@@ -8,8 +8,9 @@ environment:
 
 dependencies:    
   flutter: 
-    sdk: flutter     
-  tflite: ^1.1.2    
+    sdk: flutter 
+  tflite: ^1.1.2 
+  google_sign_in: ^6.2.1   
   image_picker: ^1.1.2
   image: ^4.2.0 
 
